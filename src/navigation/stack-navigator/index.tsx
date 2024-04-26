@@ -16,6 +16,13 @@ const HomeStackScreen = () => (
     initialRouteName="Screen1"
     screenOptions={{
       headerShown: false,
+      cardStyleInterpolator: ({current}) => {
+        return {
+          cardStyle: {
+            opacity: current.progress,
+          },
+        };
+      },
     }}>
     <HomeStack.Screen name="Screen1" component={ScreenOne} />
     <HomeStack.Screen name="Screen2" component={ScreenTwo} />
