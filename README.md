@@ -26,6 +26,9 @@ The app utilizes the following packages:
 ## Usage
 Once the app is running, you can interact with it using the iOS simulator.
 
+## Demo
+https://github.com/AguSandoval/TGChallenge/assets/43391377/baeeb4a3-af0a-4cfc-b9ee-f9ea8a117d68
+
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
